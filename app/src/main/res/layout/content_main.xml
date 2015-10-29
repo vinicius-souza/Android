@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+
+    <!--Gasolina-->
+
+    <!--Valor a abastecer-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vlGasAbs"
+        android:text="@string/valorGasolinaAbs"/>
+    <EditText
+        android:id="@+id/valorGasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/vlGasAbs"/>
+
+
+    <!--Valor da Gasolina -->
+    <TextView
+        android:layout_below="@+id/valorGasolina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vlGas"
+        android:text="@string/valorGasolina"/>
+    <EditText
+        android:layout_below="@+id/vlGas"
+        android:id="@+id/gasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+
+    <!--Km por Litros-->
+    <TextView
+        android:layout_below="@+id/gasolina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gKmL"
+        android:text="@string/gKmL"/>
+    <EditText
+        android:layout_below="@+id/gKmL"
+        android:id="@+id/gKmLitro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+
+
+    <!--Álcool-->
+    <TextView
+        android:layout_below="@+id/gKmLitro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vlAlcAbs"
+        android:text="@string/valorAlcool"/>
+    <EditText
+        android:layout_below="@id/vlAlcAbs"
+        android:id="@+id/valorAlcool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:layout_below="@+id/valorAlcool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vlAlc"
+        android:text="@string/alcool"/>
+
+    <EditText android:layout_below="@id/vlAlc"
+        android:id="@+id/alcool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+
+
+    <TextView
+        android:layout_below="@+id/alcool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aKmL"
+        android:text="@string/aKmL"/>
+
+    <EditText
+        android:layout_below="@+id/aKmL"
+        android:id="@+id/aKmLitro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        android:layout_below="@+id/aKmLitro"/>
+
+    <TextView
+        android:layout_below="@+id/btCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultado1"/>
+    <TextView
+        android:layout_below="@+id/resultado1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultado2"/>
+
+
+
+
+
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btCalcAlc"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/ed2"-->
+        <!--android:text="@string/alcool" />-->
+
+
+    <!--<Button-->
+        <!--android:layout_toRightOf="@id/btSomar"-->
+        <!--android:id="@+id/btSubtrair"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/ed2"-->
+        <!--android:text="@string/subtrair" />-->
+
+    <!--<Button-->
+        <!--android:layout_toRightOf="@id/btSubtrair"-->
+        <!--android:id="@+id/btMultiplicar"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/ed2"-->
+        <!--android:text="@string/multiplicar" />-->
+
+
+    <!--<Button-->
+        <!--android:layout_toRightOf="@id/btMultiplicar"-->
+        <!--android:id="@+id/btDividir"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/ed2"-->
+        <!--android:text="@string/dividir" />-->
+
+
+</RelativeLayout>

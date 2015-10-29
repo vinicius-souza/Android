@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FDPApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="exibirmensagem">Exibir Mensagem</string>
+    <string name="somar">somar</string>
+    <string name="subtrair">subtrair</string>
+    <string name="multiplicar">multiplicar</string>
+    <string name="dividir">dividir</string>
+    <string name="gasolina">Gasolina:</string>
+    <string name="alcool">Álcool:</string>
+    <string name="resultado">Resultado:</string>
+    <string name="valorGasolinaAbs">Valor(Reais) Gasolina Total: </string>
+    <string name="valorGasolina">Valor Gasolina/L: </string>
+    <string name="gKmL">Km/L: </string>
+    <string name="valorAlcoolAbs">Valor(Reais) Álcool Total: </string>
+    <string name="valorAlcool">Valor ÁLcool/L: </string>
+    <string name="aKmL">Km/L: </string>
+    <string name="fechar">Fechar</string>
+
+
+</resources>
